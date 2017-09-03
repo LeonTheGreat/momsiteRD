@@ -1,7 +1,4 @@
 plugins:
   - jekyll-redirect-from
-
-
-title: My amazing post
 redirect_to:
   - http://ginaedwardsphd.com
