@@ -10,7 +10,7 @@
 <body id="post">
   
 {% include navigation.html %}
-<p>hello world</p>
+
 <div id="main" role="main">
   <article class="hentry">
     {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Image credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>{% endif %}{% endif %}
@@ -59,7 +59,7 @@
     </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
-<p>hello world!</p>
+
 <div class="footer-wrapper">
   <footer role="contentinfo" class="entry-wrapper">
     {% include footer.html %}
